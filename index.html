@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Вершина</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__content">
+					<div class="header__logo">
+						<img
+							src="images/header-logo.png"
+							alt="logo"
+							class="header__logo-img"
+						/>
+						<p class="header__logo-name">Вершина</p>
+					</div>
+					<ul class="header__menu">
+						<li class="header__menu-item"><a href="index.html">Главная</a></li>
+						<li class="header__menu-item"><a href="#pros">Проживание</a></li>
+						<li class="header__menu-item"><a href="prokat.html">Прокат</a></li>
+						<li class="header__menu-item"><a href="about.html">О нас</a></li>
+						<li class="header__menu-item"><a href="/">Поддержка</a></li>
+						<img
+							src="images/header-profile.svg"
+							alt="profile"
+							class="header__profile"
+						/>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<main class="main">
+				<div class="main__hero">
+					<img src="images/hero-img.png" alt="hero" />
+					<div class="main__hero-text">
+						<div class="main__hero-title">
+							Наполни своё лето счастьем и отдыхом в горах!
+						</div>
+						<a href="" class="main__hero-button">Подробнее</a>
+					</div>
+				</div>
+				<div class="main__live">
+					<div class="main__live-title" id="pros">Проживание</div>
+					<div class="main__live-text">Забронируйте отель</div>
+
+					<div class="main__live-filters">
+						<div class="main__live-filters-item">
+							<div class="main__live-filters-title">Отель</div>
+							<input
+								class="main__live-filters-input"
+								type="text"
+								list="list"
+								placeholder="Любой"
+							/>
+							<datalist id="list">
+								<option value="Дорогой"></option>
+								<option value="Дешевый"></option>
+								<option value="Средний"></option>
+							</datalist>
+						</div>
+						<div class="main__live-filters-item">
+							<div class="main__live-filters-title">Дата</div>
+							<input class="main__live-filters-input" type="date" />
+						</div>
+						<div class="main__live-filters-item">
+							<div class="main__live-filters-title">Взрослые</div>
+							<input class="main__live-filters-input" type="text" />
+						</div>
+						<div class="main__live-filters-item">
+							<div class="main__live-filters-title">Дети</div>
+							<input class="main__live-filters-input" type="text" />
+						</div>
+						<a href="/" class="main__live-filters-button">Найти</a>
+					</div>
+					<p class="main__live-subfilter">Цена по возрастанию</p>
+					<div class="main__life-cards">
+						<div class="main__life-card">
+							<img src="images/main1.png" alt="main1" />
+							<div class="main__life-card-price">Цена:</div>
+							<a href="" class="main__life-card-button">Подробнее</a>
+						</div>
+						<div class="main__life-card">
+							<img src="images/main2.png" alt="main2" />
+							<div class="main__life-card-price">Цена:</div>
+							<a href="" class="main__life-card-button">Подробнее</a>
+						</div>
+						<div class="main__life-card">
+							<img src="images/main3.png" alt="main3" />
+							<div class="main__life-card-price">Цена:</div>
+							<a href="" class="main__life-card-button">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="main__questions">
+					<div class="main__questions-title">Часто задаваемые вопросы</div>
+					<div class="main__questions-content">
+						<div class="main__questions-item">
+							<img src="images/qu1.png" alt="q1" />
+							<div class="main__questions-item-title">
+								Есть ли на курорте уроки катания на лыжах или сноуборде?
+							</div>
+							<div class="main__questions-item-text">
+								Да, мы предлагаем уроки для всех возрастов и уровней подготовки,
+								проводимые нашими сертифицированными инструкторами.
+							</div>
+						</div>
+						<div class="main__questions-item">
+							<img src="images/qu2.png" alt="q1" />
+							<div class="main__questions-item-title">
+								Есть ли на курорте рестораны и бары?
+							</div>
+							<div class="main__questions-item-text">
+								Да, на территории есть несколько ресторанов и баров,
+								предлогающих широкий выбор блюд и напитков
+							</div>
+						</div>
+					</div>
+					<a href="/" class="main__questions-button">Задать вопрос</a>
+				</div>
+				<div class="main__sub">
+					<div class="main__text-up">Крупнейший курорт Сочи и один из самый посещаемый <br> горнолыжный курорт России!</div>
+					<div class="main__text-down">Мы рады видеть Вас в <br>горнолыжном курорте Вершина!</div>
+					<a href="/" class="main__sub-button">Узнать больше</a>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__info">
+					<div class='footer__info-logo'>
+					    <img src="images/header-logo.png" alt="logo" class="footer__info-img" />
+    					<p class="footer__info-title">Вершина</p>
+					</div>
+
+					<div class="footer__info-text">Телефон: + 7 (800) 500 80-90</div>
+					<div class="footer__info-text">
+						Адрес: г. Сочи, ул. Берёзовская 10
+					</div>
+				</div>
+				<div class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item">Проживание</li>
+						<li class="footer__menu-item">Прокат</li>
+						<li class="footer__menu-item">О нас</li>
+						<li class="footer__menu-item">Поддержка</li>
+					</ul>
+				</div>
+				<div class="footer__socials">
+					<div class="footer__socials-title">Мы в соцсетях:</div>
+					<div class="footer__socials-images">
+						<img src="images/vk.png" alt="vk" />
+						<img src="images/tg.png" alt="tg" />
+						<img src="images/yt.png" alt="yt" />
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
